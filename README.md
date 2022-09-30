@@ -1,6 +1,6 @@
 # DJ-PlayMySong-App
 
-![Meme](frontend/src/images/meme.jpeg | width=100)
+![Meme](frontend/src/images/meme.jpeg width="100" height="100")
 
 ## Overview:
 ### Request your favourite songs from the DJ of your event!
