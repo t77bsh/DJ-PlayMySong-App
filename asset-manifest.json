@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/DJ-App/static/css/main.c45b27d6.css",
+    "main.js": "/DJ-App/static/js/main.c04c3ee0.js",
+    "static/js/787.cda612ba.chunk.js": "/DJ-App/static/js/787.cda612ba.chunk.js",
+    "static/media/—Pngtree—audience applaud and cheer_7512412.png": "/DJ-App/static/media/—Pngtree—audience applaud and cheer_7512412.a833af5e880ba4d7088b.png",
+    "static/media/meme.jpeg": "/DJ-App/static/media/meme.c2722765760e39ac945c.jpeg",
+    "index.html": "/DJ-App/index.html",
+    "main.c45b27d6.css.map": "/DJ-App/static/css/main.c45b27d6.css.map",
+    "main.c04c3ee0.js.map": "/DJ-App/static/js/main.c04c3ee0.js.map",
+    "787.cda612ba.chunk.js.map": "/DJ-App/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c45b27d6.css",
+    "static/js/main.c04c3ee0.js"
+  ]
+}
