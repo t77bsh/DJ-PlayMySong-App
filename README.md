@@ -1,6 +1,6 @@
 # DJ-PlayMySong-App
 
-<img src="frontend/src/images/meme.jpeg" width="200" height="200">
+<img src="frontend/src/images/meme.jpeg" width="240" height="240">
 
 
 ## Overview:
