@@ -79,8 +79,8 @@ function Room() {
     navigate("/");
   };
 
-  const qr = `https://t77bsh.github.io/DJ-PlayMySong-App/#/room/${roomCode}`;
-  
+  const qr = `https%3A%2F%2Ft77bsh.github.io%2FDJ-PlayMySong-App%2F%23%2Froom%2F${roomCode}`
+
   return(
     <div className="align">
       <div ref={modal} className="modal">
