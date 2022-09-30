@@ -33,3 +33,4 @@ Frontend: React JS, TypeScript, HTML and SCSS (CSS).
 Backend: Node.js, Express, Socket.io and Redis.
 
 Backend server deployed using Heroku.
+
