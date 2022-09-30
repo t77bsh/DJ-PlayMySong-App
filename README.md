@@ -12,7 +12,7 @@ If you're at a party or a nightclub, making song requests to the DJ has always b
 
 ### Live demo:
 
-<video src="/Play-My-Song demo.mpg">
+<video src="/Play-My-Song demo.mov">
 
 ## How it works:
 Upon opening the app, you're prompted to either join a room or create a room as the DJ.
