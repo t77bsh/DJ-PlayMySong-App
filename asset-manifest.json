@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/DJ-PlayMySong-App/static/css/main.c45b27d6.css",
-    "main.js": "/DJ-PlayMySong-App/static/js/main.4250555e.js",
+    "main.css": "/DJ-PlayMySong-App/static/css/main.048ee353.css",
+    "main.js": "/DJ-PlayMySong-App/static/js/main.044add41.js",
     "static/js/787.cda612ba.chunk.js": "/DJ-PlayMySong-App/static/js/787.cda612ba.chunk.js",
     "static/media/—Pngtree—audience applaud and cheer_7512412.png": "/DJ-PlayMySong-App/static/media/—Pngtree—audience applaud and cheer_7512412.a833af5e880ba4d7088b.png",
     "static/media/meme.jpeg": "/DJ-PlayMySong-App/static/media/meme.c2722765760e39ac945c.jpeg",
     "index.html": "/DJ-PlayMySong-App/index.html",
-    "main.c45b27d6.css.map": "/DJ-PlayMySong-App/static/css/main.c45b27d6.css.map",
-    "main.4250555e.js.map": "/DJ-PlayMySong-App/static/js/main.4250555e.js.map",
+    "main.048ee353.css.map": "/DJ-PlayMySong-App/static/css/main.048ee353.css.map",
+    "main.044add41.js.map": "/DJ-PlayMySong-App/static/js/main.044add41.js.map",
     "787.cda612ba.chunk.js.map": "/DJ-PlayMySong-App/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c45b27d6.css",
-    "static/js/main.4250555e.js"
+    "static/css/main.048ee353.css",
+    "static/js/main.044add41.js"
   ]
 }
