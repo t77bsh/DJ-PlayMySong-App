@@ -1,4 +1,4 @@
-# DJ-PlayMySong-App
+# DJ Play My Song
 
 <img src="frontend/src/images/meme.jpeg" width="240" height="240">
 
