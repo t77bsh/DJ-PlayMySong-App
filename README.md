@@ -16,4 +16,6 @@ If you're a guest at an event and the DJ is using Play My Song, then simply inpu
 ## Built with:
 Frontend: React JS, TypeScript, HTML and SCSS (CSS).
 
-Backend: Node.js, Express, Socket.io, Redis.
+Backend: Node.js, Express, Socket.io and Redis.
+
+Backend server deployed using Heroku.
