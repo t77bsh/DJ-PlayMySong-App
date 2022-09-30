@@ -12,9 +12,7 @@ If you're at a party or a nightclub, making song requests to the DJ has always b
 
 ### Mobile demo using QR code:
 
-https://user-images.githubusercontent.com/100529283/193338740-43b8d9bc-f8fa-47ba-927e-cab83ed2f336.mov
-
-
+https://user-images.githubusercontent.com/100529283/193339557-2a8405f4-37c0-4cb0-a846-c89e293e3e49.MP4
 
 ### Demo:
 
