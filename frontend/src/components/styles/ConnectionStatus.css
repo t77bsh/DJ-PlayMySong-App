@@ -1,0 +1,24 @@
+@charset "UTF-8";
+.connection-status-ul {
+  list-style: none;
+  margin: 0;
+  text-align: center;
+  padding-left: 0;
+}
+.connection-status-ul_position {
+  position: absolute;
+  top: 0.5rem;
+}
+.connection-status-ul__li::before {
+  content: "•";
+  margin-left: -1rem;
+  font-size: 2.5rem;
+  vertical-align: middle;
+  padding-right: 0.25rem;
+}
+.connection-status-ul__li_connected::before {
+  color: green;
+}
+.connection-status-ul__li_notConnected::before {
+  color: red;
+}/*# sourceMappingURL=ConnectionStatus.css.map */

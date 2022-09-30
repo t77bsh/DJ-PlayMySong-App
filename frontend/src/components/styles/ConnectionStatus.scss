@@ -1,0 +1,27 @@
+.connection-status-ul {
+  list-style: none;
+  margin: 0;
+  text-align: center;
+  padding-left: 0;
+
+  &_position {
+    position: absolute;
+    top: 0.5rem;
+  }
+
+  &__li {
+    &::before {
+      content: "\2022";
+      margin-left: -1rem;
+      font-size: 2.5rem;
+      vertical-align:middle;
+      padding-right: 0.25rem;
+    }
+    &_connected::before {
+      color: green;
+    }
+    &_notConnected::before {
+      color: red;
+    }
+  }
+}

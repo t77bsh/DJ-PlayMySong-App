@@ -1,0 +1,13 @@
+.create-roomm {
+  background: none;
+  padding: 0 1rem;
+  border-radius: 5px;
+  border: 2px solid rgb(31, 41, 55);
+  color: white;
+  cursor: pointer;
+  width: 220px;
+  margin: 1rem 0;
+}
+.create-roomm:hover {
+  background-color: rgb(74, 90, 112);
+}/*# sourceMappingURL=CreateRoom.css.map */
