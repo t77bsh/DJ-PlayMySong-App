@@ -1,8 +1,6 @@
 # DJ-PlayMySong-App
 
-![Meme](frontend/src/images/meme.jpeg = 100x100)
-
-<img src="frontend/src/images/meme.jpeg" width="100" height="100">
+<img src="frontend/src/images/meme.jpeg" width="150" height="150">
 
 
 ## Overview:
