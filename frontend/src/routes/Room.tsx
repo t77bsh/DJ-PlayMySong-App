@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { useParams, useNavigate, Link } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { useOnClickOutside } from "usehooks-ts";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCopy } from "@fortawesome/free-regular-svg-icons";
@@ -51,7 +51,7 @@ function Room() {
       socket.off("receive-request");
       socket.off("receive-room-count");
     };
-  }, [requestsArray]);
+  }, [requestsArray, roomCode]);
 
   //Clear requests UI (key: ****)
   const clearRequests = () => {
@@ -143,7 +143,7 @@ function Room() {
           <h5>REQUESTS</h5>
         </div>
 
-        {requestsArray.length == 0 ? (
+        {requestsArray.length === 0 ? (
           <div className="requests-ui-div__awaiting">
             <div className="loader"></div>
             <div className="await-txt">Awaiting requests</div>
@@ -154,13 +154,13 @@ function Room() {
               .slice(0)
               .reverse()
               .map((request, index) => {
-                if (index == 0) {
+                if (index === 0) {
                   return (
                     <li id="last-item" key={index}>
                       {request}
                     </li>
                   );
-                } else if (index == 1) {
+                } else if (index === 1) {
                   return (
                     <li id="penult-item" key={index}>
                       {request}

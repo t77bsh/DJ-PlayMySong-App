@@ -46,7 +46,7 @@ function RoomUser() {
       socket.off("room-closed");
       socket.off("check-completee");
     };
-  }, []);
+  }, [navigate, roomCode]);
 
   const sendRequest = (event: { preventDefault: () => void }) => {
     event.preventDefault();

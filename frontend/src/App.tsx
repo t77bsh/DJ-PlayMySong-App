@@ -22,7 +22,7 @@ function App() {
 
 const ProtectedRoute: FC<{ children: JSX.Element, redirectTo: string }>  = ({children, redirectTo}) => {
   const dynamicRoute = useParams();
-  return sessionStorage.getItem("auth")==dynamicRoute.uuidv ? children : <Navigate to={redirectTo} />
+  return sessionStorage.getItem("auth")===dynamicRoute.uuidv ? children : <Navigate to={redirectTo} />
 }
 
 export default App;
