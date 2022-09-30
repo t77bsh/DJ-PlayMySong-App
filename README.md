@@ -10,9 +10,9 @@ If you're at a party or a nightclub, making song requests to the DJ has always b
 
 ### Live app: https://t77bsh.github.io/DJ-PlayMySong-App/
 
-### Live demo:
+### Demo:
 
-<video src="/Play-My-Song demo.mov">
+https://user-images.githubusercontent.com/100529283/193337673-746bdb4c-c6d8-4654-9719-6d38c39442f2.mov
 
 ## How it works:
 Upon opening the app, you're prompted to either join a room or create a room as the DJ.
