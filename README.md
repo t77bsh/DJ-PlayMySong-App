@@ -10,6 +10,12 @@ If you're at a party or a nightclub, making song requests to the DJ has always b
 
 ### Live app: https://t77bsh.github.io/DJ-PlayMySong-App/
 
+### Mobile demo using QR code:
+
+https://user-images.githubusercontent.com/100529283/193338740-43b8d9bc-f8fa-47ba-927e-cab83ed2f336.mov
+
+
+
 ### Demo:
 
 https://user-images.githubusercontent.com/100529283/193337673-746bdb4c-c6d8-4654-9719-6d38c39442f2.mov
