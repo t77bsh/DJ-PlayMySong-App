@@ -17,18 +17,6 @@ function Home() {
     socket.on("connect", () => {});
     socket.on("disconnect", () => {});
     socket.on("pong", () => {});
-
-    return () => {
-      socket.off("connect");
-      socket.off("disconnect");
-      socket.off("pong");
-    };
-  }, []);
-
-  // Join a room (key:******)
-  const joinRoom = (event: { preventDefault: () => void }) => {
-    event.preventDefault();
-    socket.emit("check-room-exists", inviteCode);
     socket.on("check-complete", (exists) => {
       exists
         ? navigate(`/room/${inviteCode}`)
@@ -36,6 +24,19 @@ function Home() {
             `Room (${inviteCode}) does not exist. You may want to double-check your input for any typos!`
           );
     });
+
+    return () => {
+      socket.off("connect");
+      socket.off("disconnect");
+      socket.off("pong");
+      socket.off("check-complete")
+    };
+  }, [inviteCode]);
+
+  // Join a room (key:******)
+  const joinRoom = (event: { preventDefault: () => void }) => {
+    event.preventDefault();
+    socket.emit("check-room-exists", inviteCode);
   };
 
   return (
