@@ -14,5 +14,6 @@ If you're the DJ, hit 'CREATE ROOM AS DJ' and you'll be taken to your room's das
 If you're a guest at an event and the DJ is using Play My Song, then simply input the invite code under the 'Join A Room' heading and you will be taken to the event room. Alternatively, you can use your device's camera app to scan the QR code (if shared) to do the same. Once joined, you will see a prompt that lets you input your song requests and send to the DJ. 
 
 ## Built with:
-Frontend: React JS, TypeScript, HTML and SCSS (CSS)
-Backend: Node.js, Express, Socket.io, Redis
+Frontend: React JS, TypeScript, HTML and SCSS (CSS).
+
+Backend: Node.js, Express, Socket.io, Redis.
