@@ -34,3 +34,22 @@ Backend: Node.js, Express, Socket.io and Redis.
 
 Backend server deployed using Heroku.
 
+## Takeaways:
+Learned about WebSockets, its use cases, pros and cons over HTTP requests, and how the technology works to implement bidirectional communication between server and clients.
+
+Used Socket.IO to keep open and persistent connections between hosts and guests to allow for real-time communication.
+
+Wrote server-side logic to make sure: multiple event rooms can coexist at the same time, event guests can join their hosts using unique invite codes, event guests are prevented from accessing the host’s admin room, guests’ requests are sent to the correct rooms, guests are removed when host ends event, rooms are only created using the create button and not through the URL.
+
+Socket IO - gained key skills in knowing how to work with and navigate the documentation of an unfamiliar external library for an original use case.
+
+Used Redis to store song requests data in-memory to allow for quick retrieval given the real-time nature of the app.
+
+Used an open-source QR Code API to allow guests to join their hosts using their device's camera.
+
+Used TypeScript to minimise errors and bugs when deploying to production.
+
+Learned how JavaScript can be used in the backend too using Node and Express.
+
+Developed a better understanding of UI and UX by working on a real-life problem.
+
