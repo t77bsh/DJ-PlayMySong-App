@@ -32,7 +32,7 @@ Frontend: React JS, TypeScript, HTML and SCSS (CSS).
 
 Backend: Node.js, Express, Socket.io and Redis.
 
-Backend server deployed using Heroku.
+Deployed using Heroku.
 
 ## Takeaways:
 - Learned about WebSockets, its use cases, pros and cons over HTTP requests, and how the technology works to implement bidirectional communication between server and clients.
